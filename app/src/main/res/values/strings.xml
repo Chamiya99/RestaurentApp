@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food_app_v_3</string>
+    <string name="foodimg">foodImg</string>
+    <string name="enjoy_eating">ENJOY EATING!</string>
+    <string name="all_the_delicious_foods_on_your_phone">All the delicious foods on your phone</string>
+    <string name="food">Food</string>
+    <string name="bevarages">Bevarages</string>
+    <string name="stores">Stores</string>
+</resources>

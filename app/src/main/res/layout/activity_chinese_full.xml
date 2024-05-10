@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foods.ChineseFull">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout02"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/white_bg1_btn"
+            android:elevation="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/layout01"
+            app:layout_constraintStart_toStartOf="@+id/layout01"
+            app:layout_constraintTop_toBottomOf="@+id/layout01">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538"
+                app:srcCompat="@drawable/correct" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Mixed Fried Rice"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:text="Fried Rice"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="409dp"
+            android:layout_height="272dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fried_rice" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="341dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:text="Chicken | Mixed | Seafood "
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout01"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/white_bg1_btn"
+            android:elevation="5dp"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.428"
+                app:srcCompat="@drawable/correct" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="180dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:text="Chicken Fried Rice"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout022"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/white_bg1_btn"
+            android:elevation="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/layout01"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/layout01"
+            app:layout_constraintTop_toBottomOf="@+id/layout01">
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538"
+                app:srcCompat="@drawable/correct" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Seafood Fried Rice"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
